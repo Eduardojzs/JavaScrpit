@@ -39,3 +39,34 @@ console.log(Math.max(5, 2, 10 ,20));
 console.log(Math.min(10, 20, 1));
 console.log(Math.floor(5.14));
 console.log(Math.ceil(5.14));
+
+// 6 - if
+
+const user = "joão"
+
+if (user === "joão"){
+    console.log(`Meu nome é joão`)
+}
+
+// 7 - else
+
+const q = 7;
+const w = 15;
+
+if(q > 5 && w >20){
+    console.log("os numeros são mais alto")
+} else{
+    console.log("os numeros são mais altos")
+}
+
+
+// 8 - else if
+
+const userName = "Eduardo"
+const userAge = 31
+
+if (userName === "José"){
+    console.log("Bem Vindo José!")
+}else if(userName === "Eduardo" && userAge ===31){
+    console.log("Bem Vindo Eduardo!")
+}
