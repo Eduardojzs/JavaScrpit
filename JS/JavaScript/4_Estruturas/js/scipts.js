@@ -69,4 +69,22 @@ if (userName === "José"){
     console.log("Bem Vindo José!")
 }else if(userName === "Eduardo" && userAge ===31){
     console.log("Bem Vindo Eduardo!")
+} else{
+    console.log("Nenhuma é Verdadeira")
+}
+
+// 9 - while 
+
+//let p = 0
+
+//while(p < 10){
+//    console.log(`Repetindo ${p}`)
+//     p = p + 1
+//}
+
+
+// 10 - for
+
+for(let r = 10; r > 0;  r = r - 1){
+    console.log(`Repetindo ${r}`)
 }
