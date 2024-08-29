@@ -18,4 +18,4 @@ let media = ((primeiroNumero + segundoNumero) / 2);
 //alert ("Divisão é: " + divisao);
 //alert ("Subtração é: " + subtracao);
 //alert ("Multiplicação é: " + multiplicacao);
-alert ("a Média é: " + (media));
+alert ("a Média é: " + (media <= 4 ||n1 === 0 || n2 ===0 ));
