@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops</title>
+</head>
+<body>
+    <h1>Dados</h1>
+    <script>
+        let dado1= parseInt(Math.random() * 6 + 1)
+        let dado2= parseInt(Math.random() * 6 + 1)
+
+        let contador = 1
+
+        while(dado1 !== dado2){
+            console.log(dado1, dado2)
+            contador++
+            dado1= parseInt(Math.random() * 6 + 1)
+            dado2= parseInt(Math.random() * 6 + 1)
+        }
+
+        console.log("Dados foram jogado " + contador + " vezes é Numero repetido foi: " + dado2)
+    </script>
+</body>
+</html>
